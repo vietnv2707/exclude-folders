@@ -38,6 +38,6 @@ define(function (require, exports, module) {
             return false;
         }
         
-        return !name.match(/node_modules/,/.meteor/);
+        return !name.match(/node_modules|.meteor/);
     };
 });
